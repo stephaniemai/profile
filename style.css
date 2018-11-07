@@ -1,0 +1,135 @@
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  opacity: 0.9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 50px;
+  font-size: 45px;
+}
+
+
+.highlight-container, .highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+.highlight-container:before, .highlight-container:after {
+  content: " ";
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+}
+.highlight-container:before {
+  background: rgba(234, 221, 6, 0.9);
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+}
+.highlight-container:after {
+  background: rgba(234, 210, 6, 0.6);
+  top: 3px;
+  right: -2px;
+}
+.highlight-container .highlight {
+  color: #333;
+  z-index: 4;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 20px;
+  color: #8d0c4f;
+/*  background: -webkit-linear-gradient(#eee, #8d0c4f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+  /*padding: 30px;*/
+  /*line-height: 1em;*/
+  /*text-underline-position: 10px;*/
+}
+
+h2 {
+  font-size: 40px;
+  color:  #993399;
+  line-height: 0.7em;
+}
+
+h3 {
+  font-size: 25px;
+  color: #eb1483;
+  line-height: 0.7em;
+}
+
+body {
+  font-family: 'Archivo Narrow', sans-serif;
+  background: #fcf5ee;   /*fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #f64f59, #c471ed, #fcf5ee);   /*Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #f64f59, #c471ed, #fcf5ee);  /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+*/
+/*  background: linear-gradient(270deg, #8d0c4f, #993399, #eb1483, #fcf5ee);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 0s ease infinite;
+  -moz-animation: AnimationName 0s ease infinite;
+  animation: AnimationName 0s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }*/
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #424153;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #eb1483;
+}
+
+img {
+  margin: 10px;
+}
+
+p {
+  color: #424153;
+}
+
+ul {
+  list-style: none;
+}
+
